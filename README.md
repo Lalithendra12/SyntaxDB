@@ -1,5 +1,5 @@
 # SyntaxDB, a lightweight, easy-to-use, scalable serverless database.
-
+# Forked from xtryambak
 I made SyntaxDB out of the frustration I have with modern server databases.
 
 - They can be really resource intensive and expensive (MongoDB)
@@ -16,12 +16,10 @@ Not only can you use this to store game settings and other things, but since it'
 - It can load from JSON files, and dump data to JSON files, making it transport-able!
 - It is fast and barely uses resources!
 - It uses a parser for commands which even a child can learn! [function1 argument1(type) argument2(type)]
-- If you make a mistake, no worries! SDB does not save your changes till you call [DUMP].
-
+- If you make a mistake, no worries! SDB does not save your changes till you call [DUMP]
 Future Features:
 - It will be able to host a Flask/Werkzeug server which lets you transmit data from one server to another (password-encrypted, obviously!).
 - Types, since it's typeless right now! I do fancy some types.
-
 # Command Syntax:
 Current:
 
